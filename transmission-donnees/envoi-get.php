@@ -4,6 +4,6 @@
 		<title>Envoi par la méthode GET</title>
 	</head>
 	<body>
-		<a href="/reception-get.php?nom=Nicolas&age=36">Envoi</a>
+		<a href="reception-get.php?nom=Nicolas&age=36">Envoi</a>
 	</body>
 </html>
