@@ -8,10 +8,8 @@
 				url : "login.php",
 				type : "POST",
 				data : "username=" + username + "&password=" + password
-				success : function(retour){
-					$('#zone').html(retour);
-				}
 			});
+			$('#zone').html("<p>" + username + " " + password + "</p>");
 		} else {
 			$('#zone').html("<p>Saisie manquante</p>");
 		}
